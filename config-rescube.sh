@@ -23,13 +23,13 @@ get_board
 
 # mainmenu should be the last one :)
 #source $_B/mainmenu.sh
+do_kernel_update
+do_firmware_update
+do_bootscript_update
+do_udev_update
+do_bootloader_update
 disable_xorg_at_boot
 enable_pulse
 rebuild_armsoc
 do_resize
 
-#do_kernel_update
-#do_firmware_update
-#do_bootscript_update
-#do_udev_update
-#do_bootloader_update
