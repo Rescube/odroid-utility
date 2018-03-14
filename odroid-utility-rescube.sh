@@ -47,8 +47,8 @@ initialization() {
 
 	install_bootstrap_packages
       
-	#update_internals
-	cp *.sh /usr/local/bin
+	update_internals
+	#cp *.sh /usr/local/bin
 		if [ -f $_B/config-rescube.sh ]; then
 			source $_B/config-rescube.sh
 		else
@@ -91,6 +91,7 @@ update_internals() {
 	export _REV="1.4 GitRev: $APP_REV"
 	
 	chmod +x $_B/odroid-utility.sh
+	chmod +x $_B/odroid-utility-rescube.sh
 }
 
 # Start the script

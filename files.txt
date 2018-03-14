@@ -1,6 +1,7 @@
 armsoc.sh
 change_hostname.sh
 config.sh
+config-rescube.sh
 extras.sh
 files.txt
 fs_resize.sh
@@ -8,6 +9,7 @@ hdmi.sh
 kernel_update.sh
 mainmenu.sh
 odroid-utility.sh
+odroid-utility-rescube.sh
 xbmc_setup.sh
 xorg_config.sh
 lirc_setup.sh
