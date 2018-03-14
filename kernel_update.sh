@@ -273,10 +273,10 @@ do_bootloader_update() {
 	mkdir $BLTEMP
 	
 	
-	if ! whiptail --yesno "I found that you booted from a $D. If that's correct say Yes and I'll download and update your bootloaders. Otherwise please say NO" 0 0; then
-		msgbox "Understood! Aborting!"
-		return
-	fi
+	#if ! whiptail --yesno "I found that you booted from a $D. If that's correct say Yes and I'll download and update your bootloaders. Otherwise please say NO" 0 0; then
+	#	msgbox "Understood! Aborting!"
+	#	return
+	#fi
 	
 	if [ "$BOARD" = "odroidxu3" ]; then
 		# 5422 Update

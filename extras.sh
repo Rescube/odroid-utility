@@ -26,7 +26,8 @@ dlf_fast() {
 
 msgbox() {
 	# $1 is the msg
-	whiptail --backtitle "Hardkernel ODROID Utility v$_REV" --msgbox "$1" 0 0 0 
+	#whiptail --backtitle "Hardkernel ODROID Utility v$_REV" --msgbox "$1" 0 0 0 
+	echo "MESSAGE: $1"
 }
 
 get_board() {
